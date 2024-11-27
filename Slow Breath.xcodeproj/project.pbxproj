@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		215459052CF6DA0F00EA3D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215458EC2CF6DA0D00EA3D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215458F32CF6DA0D00EA3D58;
+			remoteInfo = "Slow Breath";
+		};
+		2154590F2CF6DA0F00EA3D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215458EC2CF6DA0D00EA3D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215458F32CF6DA0D00EA3D58;
+			remoteInfo = "Slow Breath";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215458F42CF6DA0D00EA3D58 /* Slow Breath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slow Breath.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		215459042CF6DA0F00EA3D58 /* Slow BreathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slow BreathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2154590E2CF6DA0F00EA3D58 /* Slow BreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slow BreathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		215458F62CF6DA0D00EA3D58 /* Slow Breath */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slow Breath";
+			sourceTree = "<group>";
+		};
+		215459072CF6DA0F00EA3D58 /* Slow BreathTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slow BreathTests";
+			sourceTree = "<group>";
+		};
+		215459112CF6DA0F00EA3D58 /* Slow BreathUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slow BreathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215458F12CF6DA0D00EA3D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215459012CF6DA0F00EA3D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154590B2CF6DA0F00EA3D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215458EB2CF6DA0D00EA3D58 = {
+			isa = PBXGroup;
+			children = (
+				215458F62CF6DA0D00EA3D58 /* Slow Breath */,
+				215459072CF6DA0F00EA3D58 /* Slow BreathTests */,
+				215459112CF6DA0F00EA3D58 /* Slow BreathUITests */,
+				215458F52CF6DA0D00EA3D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215458F52CF6DA0D00EA3D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215458F42CF6DA0D00EA3D58 /* Slow Breath.app */,
+				215459042CF6DA0F00EA3D58 /* Slow BreathTests.xctest */,
+				2154590E2CF6DA0F00EA3D58 /* Slow BreathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215458F32CF6DA0D00EA3D58 /* Slow Breath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215459182CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow Breath" */;
+			buildPhases = (
+				215458F02CF6DA0D00EA3D58 /* Sources */,
+				215458F12CF6DA0D00EA3D58 /* Frameworks */,
+				215458F22CF6DA0D00EA3D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				215458F62CF6DA0D00EA3D58 /* Slow Breath */,
+			);
+			name = "Slow Breath";
+			packageProductDependencies = (
+			);
+			productName = "Slow Breath";
+			productReference = 215458F42CF6DA0D00EA3D58 /* Slow Breath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215459032CF6DA0F00EA3D58 /* Slow BreathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2154591B2CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow BreathTests" */;
+			buildPhases = (
+				215459002CF6DA0F00EA3D58 /* Sources */,
+				215459012CF6DA0F00EA3D58 /* Frameworks */,
+				215459022CF6DA0F00EA3D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215459062CF6DA0F00EA3D58 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				215459072CF6DA0F00EA3D58 /* Slow BreathTests */,
+			);
+			name = "Slow BreathTests";
+			packageProductDependencies = (
+			);
+			productName = "Slow BreathTests";
+			productReference = 215459042CF6DA0F00EA3D58 /* Slow BreathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2154590D2CF6DA0F00EA3D58 /* Slow BreathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2154591E2CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow BreathUITests" */;
+			buildPhases = (
+				2154590A2CF6DA0F00EA3D58 /* Sources */,
+				2154590B2CF6DA0F00EA3D58 /* Frameworks */,
+				2154590C2CF6DA0F00EA3D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215459102CF6DA0F00EA3D58 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				215459112CF6DA0F00EA3D58 /* Slow BreathUITests */,
+			);
+			name = "Slow BreathUITests";
+			packageProductDependencies = (
+			);
+			productName = "Slow BreathUITests";
+			productReference = 2154590E2CF6DA0F00EA3D58 /* Slow BreathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215458EC2CF6DA0D00EA3D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					215458F32CF6DA0D00EA3D58 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					215459032CF6DA0F00EA3D58 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 215458F32CF6DA0D00EA3D58;
+					};
+					2154590D2CF6DA0F00EA3D58 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 215458F32CF6DA0D00EA3D58;
+					};
+				};
+			};
+			buildConfigurationList = 215458EF2CF6DA0D00EA3D58 /* Build configuration list for PBXProject "Slow Breath" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215458EB2CF6DA0D00EA3D58;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 215458F52CF6DA0D00EA3D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215458F32CF6DA0D00EA3D58 /* Slow Breath */,
+				215459032CF6DA0F00EA3D58 /* Slow BreathTests */,
+				2154590D2CF6DA0F00EA3D58 /* Slow BreathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215458F22CF6DA0D00EA3D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215459022CF6DA0F00EA3D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154590C2CF6DA0F00EA3D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215458F02CF6DA0D00EA3D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215459002CF6DA0F00EA3D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154590A2CF6DA0F00EA3D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215459062CF6DA0F00EA3D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215458F32CF6DA0D00EA3D58 /* Slow Breath */;
+			targetProxy = 215459052CF6DA0F00EA3D58 /* PBXContainerItemProxy */;
+		};
+		215459102CF6DA0F00EA3D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215458F32CF6DA0D00EA3D58 /* Slow Breath */;
+			targetProxy = 2154590F2CF6DA0F00EA3D58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		215459162CF6DA0F00EA3D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215459172CF6DA0F00EA3D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215459192CF6DA0F00EA3D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slow Breath/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-Breath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2154591A2CF6DA0F00EA3D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slow Breath/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-Breath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2154591C2CF6DA0F00EA3D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-BreathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slow Breath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slow Breath";
+			};
+			name = Debug;
+		};
+		2154591D2CF6DA0F00EA3D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-BreathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slow Breath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slow Breath";
+			};
+			name = Release;
+		};
+		2154591F2CF6DA0F00EA3D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-BreathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slow Breath";
+			};
+			name = Debug;
+		};
+		215459202CF6DA0F00EA3D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PieterNatanael.Slow-BreathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slow Breath";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215458EF2CF6DA0D00EA3D58 /* Build configuration list for PBXProject "Slow Breath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215459162CF6DA0F00EA3D58 /* Debug */,
+				215459172CF6DA0F00EA3D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215459182CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow Breath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215459192CF6DA0F00EA3D58 /* Debug */,
+				2154591A2CF6DA0F00EA3D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2154591B2CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow BreathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154591C2CF6DA0F00EA3D58 /* Debug */,
+				2154591D2CF6DA0F00EA3D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2154591E2CF6DA0F00EA3D58 /* Build configuration list for PBXNativeTarget "Slow BreathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154591F2CF6DA0F00EA3D58 /* Debug */,
+				215459202CF6DA0F00EA3D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215458EC2CF6DA0D00EA3D58 /* Project object */;
+}
